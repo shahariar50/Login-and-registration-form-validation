@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.login, .reg{
+    padding: 50px 30px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+.login{
+    width: 400px;
+    max-width: 400px;
+}
+.reg{
+    width: 600px;
+    max-width: 600px;
+}

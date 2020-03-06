@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="reg">
+            <form id="regform" method="post">
+                <h2>Register</h2>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label for="fName">First Name</label>
+                            <input type="text" class="form-control" id="fName" aria-describedby="emailHelp">
+                        </div>
+                        <div class="col">
+                            <label for="lName">Last Name</label>
+                            <input type="text" class="form-control" id="lName" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label for="inputPassword1">Password</label>
+                            <input type="password" class="form-control" id="inputPassword1">
+                        </div>
+                        <div class="col">
+                            <label for="inputPassword2">Confirm Password</label>
+                            <input type="password" class="form-control" id="inputPassword2">
+                        </div>
+                    </div>
+                    <small id="passreq" class="form-text text-danger"></small>
+                </div>
+                <div class="form-group">
+                    <button id="formButton1" type="submit" class="btn btn-primary">Register</button>
+                    <span class="float-right">Already have account? <a href="index.html">Log In</a></span>
+                </div>
+            </form>
+        </div>
+
+
+
+
+        <script type="text/javascript" src="assets/js/jquery.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+    </body>
+
+</html>
